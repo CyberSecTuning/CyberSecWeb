@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSecWeb - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+        .container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 20px;
+            margin-left: 200px;
+            width: calc(100% - 200px);
+        }
+        main {
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        /* Side navigation styles */
+        nav.side-nav {
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 200px;
+            background-color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        nav.side-nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav.side-nav ul li {
+            margin: 15px 0;
+        }
+        nav.side-nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            display: block;
+            text-align: center;
+        }
+        nav.side-nav ul li a:hover {
+            background-color: #555;
+            padding: 10px;
+        }
+        .icon-resume::before, .icon-skills::before, .icon-projects::before, .icon-contact::before {
+            content: "\1F4C4"; /* Placeholder icon (document) */
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="side-nav">
+        <ul>
+            <li><a href="index.html"><i class="icon-resume"></i>Home</a></li>
+            <li><a href="resume.html"><i class="icon-resume"></i>Resume</a></li>
+            <li><a href="skills.html"><i class="icon-skills"></i>Skills</a></li>
+            <li><a href="projects.html"><i class="icon-projects"></i>Projects</a></li>
+            <li><a href="contact.html"><i class="icon-contact"></i>Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main>
+            <h1>Skills</h1>
+            <p>Coming soon...</p>
+            <!-- Add more resume content here -->
+        </main>
+    </div>
+
+</body>
+</html>
